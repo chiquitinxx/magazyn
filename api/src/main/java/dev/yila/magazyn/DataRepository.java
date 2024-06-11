@@ -1,4 +1,4 @@
 package dev.yila.magazyn;
 
-public interface DataRepository<T, K> {
+public interface DataRepository<T> {
 }

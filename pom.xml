@@ -46,11 +46,17 @@
         <artifactId>magazyn-api</artifactId>
         <version>${project.version}</version>
       </dependency>
+      <dependency>
+        <groupId>dev.yila</groupId>
+        <artifactId>magazyn-tck</artifactId>
+        <version>${project.version}</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 
   <modules>
     <module>api</module>
     <module>tck</module>
+    <module>memory</module>
   </modules>
 </project>
